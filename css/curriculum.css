@@ -1,3 +1,32 @@
+h1{
+    color: #064e0b;
+}
+
 h4{
-    background-color: #3EA551;
+    color: #10a41d;
+}
+
+h3{
+    color: #096f11;
+}
+
+img{
+    width: 15%;
+    border-radius: 10px;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    background-color: #1d5022;
+}
+
+a:visited{
+    text-decoration: none;
+    text-transform: none;
 }
