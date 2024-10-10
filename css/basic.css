@@ -15,3 +15,8 @@ h1{
 .index{
     text-align: right;
 }
+
+.fd{
+    text-align: center;
+    margin-bottom: auto;
+}
