@@ -88,23 +88,22 @@ header .top {
 }
 
 main {
-    background-color: red;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 main .education{
-    background-color: rgb(5, 199, 213);
+    background-color: rgb(4, 216, 188);
     padding-left: 1rem;
 }
 
 main .work{
-    background-color: rgb(4, 148, 128);
+    background-color: rgb(5, 207, 180);
     padding-left: 1rem;
 }
 
 main .projects{
-    background-color: rgb(6, 122, 122);
+    background-color: rgb(4, 190, 174);
     padding: 1rem;
 }
 
