@@ -89,28 +89,35 @@ header .top {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 main .education{
-    background-color: rgb(4, 216, 188);
+    background-color: rgb(5, 207, 180);
     padding: 1rem;
+    border-radius: 10px;
+    width: 500px;
 }
 
 main .work{
     background-color: rgb(5, 207, 180);
     padding: 1rem;
+    border-radius: 10px;
+    width: 500px;
 }
 
 main .projects{
-    background-color: rgb(4, 190, 174);
+    background-color: rgb(5, 207, 180);
     padding: 1rem;
+    border-radius: 10px;
+    width: 500px;
 }
 
 
 .reviews{
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .jhon1{
@@ -120,7 +127,8 @@ main .projects{
     background-color: aliceblue;
     border: solid #000000;
     border-radius: 10px;
-    width: auto;
+    width: 200px;
+    margin-right: 10px;
 }
 
 .jhon2{
@@ -129,6 +137,8 @@ main .projects{
     padding-right: 1%;
     border: solid #000000;
     border-radius: 10px;
+    width: 200px;
+    margin-right: 10px;
 }
 
 .jhon3{
@@ -138,6 +148,7 @@ main .projects{
     background-color: aliceblue;
     border: solid #000000;
     border-radius: 10px;
+    width: 200px;
 }
 .jane{
     text-align: left;
@@ -147,5 +158,5 @@ main .projects{
 footer{
     text-align: center;
     font-weight: 700;
-    padding-top: 5%;
+    padding-top: 0;
 }
