@@ -120,6 +120,7 @@ main .projects{
     background-color: aliceblue;
     border: solid #000000;
     border-radius: 10px;
+    width: auto;
 }
 
 .jhon2{
