@@ -94,12 +94,12 @@ main {
 
 main .education{
     background-color: rgb(4, 216, 188);
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 main .work{
     background-color: rgb(5, 207, 180);
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 main .projects{
@@ -110,26 +110,34 @@ main .projects{
 
 .reviews{
     display: flex;
+    justify-content: center;
 }
 
 .jhon1{
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: aliceblue;
+    border: solid #000000;
+    border-radius: 10px;
 }
 
 .jhon2{
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: solid #000000;
+    border-radius: 10px;
 }
 
 .jhon3{
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: aliceblue;
+    border: solid #000000;
+    border-radius: 10px;
 }
-
 .jane{
     text-align: left;
     color: #77797a;
