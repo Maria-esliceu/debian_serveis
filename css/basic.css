@@ -1,34 +1,143 @@
-body{
-    font-family: 'Roboto';
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
-img{
-    width: 3.5%;
-    border-radius: 10px;
+body{
+    font-family: 'Roboto';
+    font-size: 16px; /*1rem 10px*/
 }
 
 h1{
-    font-weight: 700;
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.6rem;
+}
+
+h1,
+h2,
+h3{
     text-align: center;
 }
 
-.index{
+img{
+    width: 10%;
+    border-radius: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #007bff;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*img {
+    width: 100%;
+    object-fit: cover;
+}*/
+
+.text-center {
+    text-align: center;
+}
+
+/*.text-left{
+    text-align: left;
+}
+
+.text-right{
     text-align: right;
+} */
+
+header .container{
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.fd{
-    text-align: center;
-    margin-bottom: auto;
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-.c{
-    border: 1px solid rgb(70, 69, 69);
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
+.logo{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main {
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .education{
+    background-color: rgb(5, 199, 213);
+    padding-left: 1rem;
+}
+
+main .work{
+    background-color: rgb(4, 148, 128);
+    padding-left: 1rem;
+}
+
+main .projects{
+    background-color: rgb(6, 122, 122);
+    padding: 1rem;
+}
+
+
+.reviews{
+    display: flex;
+}
+
+.jhon1{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.jhon2{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.jhon3{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.jane{
+    text-align: left;
+    color: #77797a;
+}
+
+footer{
     text-align: center;
-    margin: 5px;
+    font-weight: 700;
+    padding-top: 5%;
 }

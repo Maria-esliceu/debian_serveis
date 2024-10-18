@@ -7,24 +7,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/basic.css">
 </head>
 <body>
-    <header>
-        <img src="img/Logo_amb_blanc.png" alt=""> 
-        <h3>Maria</h3>
-        <nav class="index">
-            <a href="index.html">Home</a>
-            <a href="horari.html">Horari</a>
-            <a href="curriculum.html">Currículum</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="basic.html">Web Basica</a>
-        </nav>
-        <h1>Frontend Developer</h1>
-        <p class="fd">Aprende a crear sitios web y aplicaciones web.</p>
+    <header class="container">
+        <div class="top">
+            <div class="logo">
+                <img src="img/Logo_amb_blanc.png" alt=""> 
+                <div>Maria</div>
+            </div>
+            <nav class="index">
+                <a href="index.html">Home</a>
+                <a href="horari.html">Horari</a>
+                <a href="curriculum.html">Currículum</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="basic.html">Web Basica</a>
+            </nav>
+        </div>
+        <div class="hero">
+            <h1>Frontend Developer</h1>
+            <p class="text-center">Aprende a crear sitios web y aplicaciones web.</p>
+        </div>
     </header>
+        
     <main>
-        <section>
+        <section class="projects">
             <h2>Projects</h2>
             <ul>
                 <li>HTML Only Portfolio</li>
@@ -34,7 +42,7 @@
                 <li>Product Upcoming Page</li>
             </ul>
         </section>
-        <section>
+        <section class="work">
             <div>
                 <h2>Work Experience</h2>
                 <h3>roadmap.sh</h3>
@@ -47,7 +55,7 @@
                 <a href="">Visit my GitHub Profile</a>
             </div>
         </section>
-        <section>
+        <section class="education">
             <h2>Education</h2>
             <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon Organized 30 sessions.</p>
             <p>Courses I took:</p>
@@ -66,17 +74,19 @@
     </main>
     <section>
         <h2>Reviews from my Teachers</h2>
-        <div class="c">
-            <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
-            <p>Jane Doe Assistant Professor</p>
-        </div>
-        <div class="c">
-            <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
-            <p>Jane Doe Assistant Professor</p>
-        </div>
-        <div class="c">
-            <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
-            <p>Jane Doe Assistant Professor</p>
+        <div class="reviews">
+            <div class="jhon1">
+                <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
+                <p class="jane">Jane Doe Assistant Professor</p>
+            </div>
+            <div class="jhon2">
+                <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
+                <p class="jane">Jane Doe Assistant Professor</p>
+            </div>
+            <div class="jhon3">
+                <p>Jhon doe was brilliant student; always stood out with his assignments.</p>
+                <p class="jane">Jane Doe Assistant Professor</p>
+            </div>
         </div>
     </section>
     <footer>
