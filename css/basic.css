@@ -113,6 +113,12 @@ main .projects{
     width: 500px;
 }
 
+main .projects li {
+    width: 100%;
+    padding: 1rem;
+}
+
+
 
 .reviews{
     display: flex;
