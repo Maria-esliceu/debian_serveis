@@ -1,5 +1,5 @@
 :root{
-    --primary-color: rgb(197, 69, 69);
+    --primary-color: rgb(245, 136, 35);
 }
 
 *{
@@ -58,5 +58,30 @@ a:hover{
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+    padding: 20px;
+}
+
+#section-b{
+    background-color: antiquewhite;
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+#section-c{
+    display: flex;
+}
+
+.box{
+    padding: 20px;
+}
+
+.fonsOrange{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.box-c{
+    background-color: antiquewhite;
+    color: var(--primary-color);
     padding: 20px;
 }
