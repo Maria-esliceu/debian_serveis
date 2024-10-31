@@ -3,21 +3,29 @@ body{
 }
 
 .container{
-    width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 auto;
-    margin-left: 250px;
     margin-top: 2rem;
+
 }
 
 .galeria{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
+    height: 30vh;
+    width: 30vh;
 }
 
 img{
     width: 350px;
-    height: 300px;
+    height: 280px;
     object-fit: cover;
+}
+
+nav{
+    background-color: rgb(14, 167, 116);
+    margin-left: 369px;
+    margin-right: 385px;
 }
