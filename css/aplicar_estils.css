@@ -22,6 +22,25 @@ input{
     border: 3px solid red;
 }
 
-id .special{
+.hello{
+    background-color: white;
+}
+
+p[id="special"]{
     border: 2px solid rgb(0, 0, 255);
 }
+
+div p {
+    font-size: 25px;
+}
+
+input[type="text"]{
+    background-color: grey;
+}
+
+div:nth-of-type(3) p{
+    background-color: pink;
+}
+
+/*:last.of-type() = el darrer de tots*/
+
